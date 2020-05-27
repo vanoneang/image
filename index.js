@@ -209,4 +209,4 @@ IMAGE.rotateImg = (src, direction) => new Promise((resolve, reject) => {
   img.src = src
 })
 
-module.exports = IMAGE
+export default IMAGE
