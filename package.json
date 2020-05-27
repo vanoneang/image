@@ -1,0 +1,51 @@
+{
+  "name": "@van/image",
+  "version": "1.0.0",
+  "description": "images processing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "esCheck": "eslint --ext .js --ext .jsx .",
+    "prettier": "prettier --write app/**/*.js app/*.js app/**/**/*.js app/**/**/**/*.js tests/**/*.js && eslint . tests --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanoneang/image.git"
+  },
+  "keywords": [
+    "image",
+    "front-end"
+  ],
+  "author": "Evan Wang",
+  "license": "MIT",
+  "dependencies": {
+    "exif-js": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@types/eslint": "^4.16.6",
+    "@types/jest": "^24.0.11",
+    "@types/prettier": "1.16.1",
+    "babel-eslint": "^10.0.2",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-sonar": "^0.0.7",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^24.3.1",
+    "nodemon": "^1.18.10",
+    "pre-commit": "^1.2.2",
+    "prettier": "1.16.4"
+  },
+  "pre-commit": {
+    "silent": true,
+    "run": "esCheck"
+  }
+}
