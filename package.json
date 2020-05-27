@@ -1,5 +1,5 @@
 {
-  "name": "@van/image",
+  "name": "van-image",
   "version": "1.0.0",
   "description": "images processing",
   "main": "index.js",
